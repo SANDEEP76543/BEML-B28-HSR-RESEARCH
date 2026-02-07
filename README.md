@@ -1,4 +1,9 @@
-# BEML-B28-HSR-RESEARCH
+# BEML-B28-HSR-RESEARCH 
+## 🚄 Project Index
+* [BEML B28 Technical Specs](#-technical-specifications)
+* [Varanasi–Siliguri HSR Corridor](./Varanasi-Siliguri-HSR.md)
+---
+
 Research and drafts for the BEML B28 High-Speed Train project.
 * ​Project Name: **BEML B28** (Train B28)
 * ​Max Speed: **280 km/h (Design)** / **250 km/h (Operational)**
