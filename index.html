@@ -62,3 +62,147 @@
     </div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEML B28 HSR Technical Archive</title>
+    <style>
+        :root { --primary: #003366; --secondary: #c0c0c0; --accent: #f39c12; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1100px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        header { background: var(--primary); color: white; padding: 30px; border-radius: 8px; text-align: center; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1, h2, h3 { color: var(--primary); border-bottom: 2px solid var(--secondary); padding-bottom: 5px; }
+        
+        /* Infobox Styling */
+        .infobox { float: right; width: 320px; background: #fff; border: 1px solid #aaa; padding: 10px; margin-left: 20px; font-size: 0.9rem; box-shadow: 2px 2px 10px rgba(0,0,0,0.05); }
+        .infobox-title { background: var(--primary); color: white; text-align: center; font-weight: bold; padding: 10px; font-size: 1.2rem; }
+        .infobox table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .infobox th { text-align: left; padding: 5px; background: #eee; border-bottom: 1px solid #ddd; width: 40%; }
+        .infobox td { padding: 5px; border-bottom: 1px solid #ddd; }
+
+        /* Grid Layout */
+        .specs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+        .spec-card { background: white; padding: 15px; border-radius: 8px; border-top: 4px solid var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; }
+        .spec-card strong { display: block; font-size: 1.1rem; color: var(--primary); }
+
+        /* Sectioning */
+        section { background: white; padding: 25px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); clear: both; }
+        .ref-section { font-size: 0.85rem; color: #666; background: #f0f0f0; padding: 15px; }
+        
+        /* Utility */
+        .highlight { font-weight: bold; color: var(--primary); }
+        .wiki-raw-container { margin-top: 20px; }
+        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; display: none; }
+        button { background: var(--primary); color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+        
+        @media (max-width: 768px) { .infobox { float: none; width: 100%; margin: 0 0 20px 0; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BEML B28 (Vande Bharat 250)</h1>
+    <p>Official Research Repository for India's First Indigenous High-Speed Trainset</p>
+</header>
+
+<aside class="infobox">
+    <div class="infobox-title">BEML B28</div>
+    <table>
+        <tr><th>Manufacturer</th><td>BEML Limited</td></tr>
+        <tr><th>Family</th><td>Vande Bharat Express (HSR Variant)</td></tr>
+        <tr><th>Formation</th><td>8-car trainset (DTC+MC+TC+MC+MC+TC+MC+DTC)</td></tr>
+        <tr><th>Operator</th><td>NHSRCL (Proposed)</td></tr>
+        <tr><th>Owner</th><td>ICF / Indian Railways</td></tr>
+        <tr><th>Max Speed</th><td>280 km/h (Design)<br>250 km/h (Operational)</td></tr>
+        <tr><th>Gauge</th><td>1,435 mm (Standard Gauge)</td></tr>
+        <tr><th>Traction</th><td>Distributed Power (IGBT-based)</td></tr>
+        <tr><th>Brakes</th><td>Knorr-Bremse Microprocessor</td></tr>
+        <tr><th>Capacity</th><td>~580 Seats</td></tr>
+        <tr><th>Unit Cost</th><td>₹27.86 Cr per coach</td></tr>
+        <tr><th>Total Contract</th><td>₹866.87 Crore</td></tr>
+    </table>
+</aside>
+
+<section id="introduction">
+    <p>The <span class="highlight">BEML B28</span> (also known as <strong>Train B28</strong> or <strong>Vande Bharat 250</strong>) is India's first indigenous high-speed trainset, developed by BEML Limited. It is designed for an operational speed of 250 km/h and a structural design speed of 280 km/h.</p>
+</section>
+
+
+
+<section id="development">
+    <h2>Development</h2>
+    <p>In October 2024, the <span class="highlight">Integral Coach Factory (ICF)</span> awarded a strategic contract worth ₹866.87 crore to BEML. According to <strong>U.R. Subba Rao</strong> (Director, BEML), the project transitioned to active manufacturing in early 2026 at the Bengaluru complex. The first prototype is expected to roll out by late 2026.</p>
+    <p><strong>Shantanu Roy</strong> (CMD, BEML) described the B28 as a "strategic technology milestone" involving advanced Train Control Management Systems (TCMS).</p>
+</section>
+
+<section id="route">
+    <h2>Route & Operations</h2>
+    <ul>
+        <li><strong>Primary Corridor:</strong> Mumbai–Ahmedabad High-Speed Rail.</li>
+        <li><strong>Trial Stretch:</strong> Surat–Bilimora section starting late 2026.</li>
+        <li><strong>Commercial Launch:</strong> Expected by August 2027.</li>
+    </ul>
+</section>
+
+<section id="technical">
+    <h2>Technical Specifications & Design</h2>
+    <div class="specs-grid">
+        <div class="spec-card"><strong>Aerodynamics</strong>Long-nose design (Shinkansen-style) to reduce tunnel piston effect.</div>
+        <div class="spec-card"><strong>Carbody</strong>Austenitic stainless steel with high-precision welding.</div>
+        <div class="spec-card"><strong>Bogies</strong>Bolsterless high-speed bogies with advanced damping.</div>
+        <div class="spec-card"><strong>Propulsion</strong>Medha Servo Drives (Distributed Traction).</div>
+    </div>
+</section>
+
+<section id="amenities">
+    <h2>Interior & Water Management</h2>
+    <p>Verified through DGCI&S tenders, the B28 includes:</p>
+    <ul>
+        <li><strong>Executive Class:</strong> 180-degree rotating seats and enhanced legroom.</li>
+        <li><strong>Climate Control:</strong> Pressurized HVAC units by Knorr-Bremse (Merak).</li>
+        <li><strong>Sanitation:</strong> Pressurized modular toilets designed for speeds of 250 km/h and temperatures from -5°C to 50°C.</li>
+        <li><strong>Accessibility:</strong> Special provisions for PRM (Persons with Restricted Mobility).</li>
+    </ul>
+</section>
+
+<section id="safety">
+    <h2>Safety & Engineering</h2>
+    <ul>
+        <li><strong>Evacuation:</strong> Specialized "Ladders-cum-bridge" systems for emergency egress.</li>
+        <li><strong>Crashworthiness:</strong> Energy-absorbing elements in the driving cab structure.</li>
+        <li><strong>Visibility:</strong> Reinforced wrap-around glass for high-pressure tunnel transits.</li>
+    </ul>
+</section>
+
+<section class="ref-section">
+    <h2>References (Sourced from Research)</h2>
+    <ol>
+        <li>Moneycontrol: India's first indigenous high-speed train (2026-01-20)</li>
+        <li>The Hindu: BEML awarded ₹866.87 crore contract.</li>
+        <li>DGCI&S: Technical Procurement Specification for B28 (Water Tanks/Aerodynamics).</li>
+        <li>Knorr-Bremse: Systems technology for Indian HSR.</li>
+    </ol>
+</section>
+
+<div class="wiki-raw-container">
+    <button onclick="toggleWiki()">View Original Wikitext Source</button>
+    <pre id="wikiCode">
+{{Infobox train
+| name = BEML B28
+| manufacturer = [[BEML Limited]]
+... [Full Wikitext Saved Here] ...
+    </pre>
+</div>
+
+<script>
+    function toggleWiki() {
+        var x = document.getElementById("wikiCode");
+        x.style.display = (x.style.display === "none" || x.style.display === "") ? "block" : "none";
+    }
+</script>
+
+</body>
+</html>
