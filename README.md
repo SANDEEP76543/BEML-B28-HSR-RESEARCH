@@ -1,5 +1,8 @@
 # BEML-B28-HSR-RESEARCH 
 ## 🚄 Project Index
+* **BEML B28:** [Technical Specs](./README.md) | [Live Wikipedia Draft](https://en.wikipedia.org/wiki/Draft:BEML_B28)
+* **Varanasi–Siliguri:** [Research Notes](./Varanasi-Siliguri-HSR.md) | [Live Wikipedia Draft](https://en.wikipedia.org/wiki/Draft:Varanasi–Siliguri_high-speed_rail_corridor)
+---
 * [BEML B28 Technical Specs](#-technical-specifications)
 * [Varanasi–Siliguri HSR Corridor](./Varanasi-Siliguri-HSR.md)
 ---
