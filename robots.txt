@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sandeep76543.github.io/BEML-B28-HSR-RESEARCH/sitemap.xml
+
